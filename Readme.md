@@ -56,7 +56,7 @@ client.cmd(batch, function(err, address) {
 ```
 
 ## SSL
-See [Enabling SSL on original client](https://en.litecoin.it/wiki/Enabling_SSL_on_original_client_daemon).
+See [Enabling SSL on original client](https://en.bitcoin.it/wiki/Enabling_SSL_on_original_client_daemon).
 
 If you're using this to connect to litecoind across a network it is highly
 recommended to enable `ssl`, otherwise an attacker may intercept your RPC credentials
