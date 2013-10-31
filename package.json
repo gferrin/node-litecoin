@@ -1,0 +1,25 @@
+{
+  "name": "node-litecoin",
+  "description": "Communicate with litecoind via JSON-RPC",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "keywords": [
+    "litecoin",
+    "rpc"
+  ],
+  "author": "Bill Casarin <bill@casarin.ca> (jb55.com)",
+  "contributors": [
+    "Sean Lavine <sean@eternalrise.com>",
+    "Gabriel Ferrin <garf11235813@gmail.com>"
+  ],
+  "dependencies": {
+    "deprecate": "~0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gferrin/node-litecoin.git"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  }
+}
