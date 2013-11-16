@@ -76,6 +76,13 @@ var client = new litecoin.Client({
   pass: 'password',
   ssl: true,
   sslStrict: true,
-  sslCa: fs.readFileSync(__dirname + '/myca.cert')
+  sslCa: fs.readFileSync(__dirname + '/server.cert')
 });
 ```
+
+If your using a self signed certificate generated with something like 
+
+`openssl x509 -req -days 365 -in server.cert -signkey server.key -out server.cert`
+
+then `sslStrict` should be set to `false` because by defult node wont work with 
+untrusted certificates. 
